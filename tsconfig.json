@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./"
+  },
+  "include": ["./**/*.ts", "tests/CTL/CTL02-TC02-002_View creation.spec.ts", "tests/CTL/CTL09-TC05 - Verify that saving a screen take care of the checkbox status.spec.ts", "tests/New_Test_TemplateAI.spec.mjs", "tests/AI/maxai.spec.mjs"],
+  "exclude": ["node_modules", "dist"]
+}

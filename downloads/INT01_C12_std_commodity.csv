@@ -1,0 +1,5 @@
+Level;Reference;Parent;Label french;Label English
+dom;INT01_Case12;;INT01_Case12;INT01_Case12
+fam;INT01_Case12_1;INT01_Case12;INT01_Case12_1;INT01_Case12_1
+sfam;INT01_Case12_2;INT01_Case12_1;INT01_Case12_2;INT01_Case12_2
+ssfam;INT01_Case12_3;INT01_Case12_2;INT01_Case12_3;INT01_Case12_3
