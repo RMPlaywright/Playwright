@@ -36,7 +36,7 @@ const config: PlaywrightTestConfig = defineConfig({
   ],
 
   use: {
-    headless: false,
+    headless: true,
     trace: 'on',
     video: {
       mode: 'on',
