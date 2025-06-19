@@ -6,6 +6,15 @@ on:
     branches: [ main, master ]
 jobs:
   test:
+    if: |
+      github.event_name == 'push' ||
+      (
+        github.event_name == 'pull_request' &&
+        (
+          contains(join(github.event.pull_request.labels.*.name, ','), 'CTL') ||
+          contains(join(github.event.pull_request.labels.*.name, ','), 'Ready')
+        )
+      )
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
