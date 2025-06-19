@@ -61,7 +61,7 @@ const config: PlaywrightTestConfig = defineConfig({
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        headless: false,
+        headless: true,
         trace: 'on',
         video: {
           mode: 'on',
